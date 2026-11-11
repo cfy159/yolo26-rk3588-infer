@@ -1,0 +1,7 @@
+# 板端（RK3588, aarch64）Python 依赖
+numpy>=1.20
+opencv-python>=4.5
+# rknnlite 由 RKNN-Toolkit-Lite2 的 whl 提供，需与板端 NPU 驱动版本匹配，不通过 pip 自动安装
+
+# PC 端用 ONNX 后端验证流程时可选安装
+# onnxruntime>=1.15
